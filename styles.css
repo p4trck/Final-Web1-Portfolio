@@ -1,0 +1,128 @@
+.container {
+    background-color: plum;
+}
+.contact{
+    font-family: monospace;
+    color: black;
+    font-size: 35pt;
+}
+.navbar {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.navbar a {
+    background-color: plum;
+    font-family: monospace;
+    float: left;
+    font-size: 20px;
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    color: black;
+    transition: all 500ms ease-in;
+  }
+nav{
+    padding: 0;
+    margin: 0;
+}
+img {
+    max-width: 300px;
+    max-height: 300px;
+    transform: translateY(10px);
+    transition: all .7s ease-in;
+}
+.img2 {
+    padding-right: 10em;
+}
+.img3 {
+    padding-top: 2em;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0 0 0;
+  }
+.header2 {
+    font-family: monospace;
+    padding-top: 0;
+    margin: 2em;
+    transition: all .7s ease-in;
+    font-size: 15pt;
+    padding-left: 10em;
+}  
+.header1 {
+    font-family: monospace;
+    padding-left: 10em;
+    margin: 2em;
+    transition: all .7s ease-in;
+    font-size: 15pt;
+}
+.header {
+    font-family: monospace;
+    padding-left: 10em;
+    margin: 2em;
+    transition: all .7s ease-in;
+    font-size: 15pt;
+}
+.intro {
+
+    font-family: monospace;
+    font-size: 15pt;
+    padding: 2em;
+    padding-bottom: 10em;
+    border: none;
+    color: black;
+    opacity: 100%;
+}
+.intro1{
+    font-family: monospace;
+    font-size: 34pt;
+    color: black;
+    padding-top: 5em;
+    
+}
+.info {
+    font-family: monospace;
+    font-size: large;
+    border: none;
+    color: black;
+    opacity: 100%;
+    padding-top: 20em;
+}
+.copyright{
+    font-family: monospace;
+    font-size: 12pt;
+    font-weight: 200;
+    padding-top: 16em;
+    padding-right: 20em;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+
+    img{
+        max-width: 300px;
+    }
+    .intro {
+        font-size: small;
+        padding: none;
+        margin: none;
+    }
+  
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+

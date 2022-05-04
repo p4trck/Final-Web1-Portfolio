@@ -1,0 +1,10 @@
+.img1:hover, .img2:hover, .img3:hover {
+    transform: translateY(-10px);
+    border: none;
+    opacity: 80%;
+    transition: all 500ms ease-in;
+}
+.navbar a:hover {
+    color: blueviolet;
+    transition: all 500ms ease-in;
+}

@@ -1,0 +1,68 @@
+.container {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-gap: 1em;
+    align-items: center;
+    justify-items: center;
+    grid-template-rows: 50px 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas: 
+    "a a1 a2"
+    "b b1 b2"
+    "c c1 c2"
+    "d d1 d2";
+}
+.header2{
+    grid-area: d;
+}
+.header1{
+    grid-area: b;
+}
+.header {
+    grid-area: c1;
+}
+.navbar {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.contact{
+    grid-area: b1;
+}
+.info{
+    grid-area: b1;
+}
+.intro1 {
+    grid-area: b1;
+}
+.intro {
+    grid-area: c1;
+}
+.img1 {
+    grid-area: d1;
+}
+.img2 {
+    grid-area: c2;
+}
+.img3 {
+    grid-area: b1;
+}
+.img4 {
+    grid-area: c;
+}
+.img5 {
+    grid-area: c;
+}
+.img6 {
+    grid-area: c;
+}
+.img7 {
+    grid-area: c;
+}
+.cap1 {
+    grid-area: b1;
+    z-index: 1;
+}
+.copyright {
+    grid-area: d;
+}
