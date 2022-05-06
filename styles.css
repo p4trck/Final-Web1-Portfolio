@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .container {
     background-color: plum;
 }
@@ -23,10 +27,7 @@
     color: black;
     transition: all 500ms ease-in;
   }
-nav{
-    padding: 0;
-    margin: 0;
-}
+
 img {
     max-width: 300px;
     max-height: 300px;
@@ -37,7 +38,7 @@ img {
     padding-right: 10em;
 }
 .img3 {
-    padding-top: 2em;
+    padding-top: 4em;
 }
 ul {
     list-style-type: none;
@@ -50,18 +51,18 @@ ul {
     margin: 2em;
     transition: all .7s ease-in;
     font-size: 15pt;
-    padding-left: 10em;
+    padding-left: 7em;
 }  
 .header1 {
     font-family: monospace;
-    padding-left: 10em;
+    padding-left: 7em;
     margin: 2em;
     transition: all .7s ease-in;
     font-size: 15pt;
 }
 .header {
     font-family: monospace;
-    padding-left: 10em;
+    padding-left: 7em;
     margin: 2em;
     transition: all .7s ease-in;
     font-size: 15pt;
@@ -89,7 +90,7 @@ ul {
     border: none;
     color: black;
     opacity: 100%;
-    padding-top: 20em;
+    padding-top: 10em;
 }
 .copyright{
     font-family: monospace;
@@ -98,11 +99,20 @@ ul {
     padding-top: 16em;
     padding-right: 20em;
 }
+.contact{
+    font-family: monospace;
+    font-size: 22pt;
+    padding: 3em;
+}
 
 
 
 @media only screen and (max-width: 700px) {
+ 
 
+    .left, .main, .right {
+        width: 100%; /* The width is 100%, when the viewport is 700px or smaller */
+      }
     img{
         max-width: 300px;
     }
@@ -113,8 +123,6 @@ ul {
     }
   
   }
-
-
 
 
 
