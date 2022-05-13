@@ -29,6 +29,9 @@
     grid-column-end: 4;
 }
 ul.contact{
+    grid-area: d1;
+}
+.intro2 {
     grid-area: c1;
 }
 .info{
@@ -67,4 +70,7 @@ ul.contact{
 }
 .copyright {
     grid-area: d;
+}
+.form {
+    grid-area: c;
 }
